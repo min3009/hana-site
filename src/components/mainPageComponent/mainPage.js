@@ -89,6 +89,9 @@ const MiddleSectionProp = styled.div`
     transform: scale(1.1, 1.1);
     transition: all 0.5s;
   }
+  @media (min-width: 1900px) {
+    height: 700px;
+  }
 `;
 
 const FooterSection = styled.div`
